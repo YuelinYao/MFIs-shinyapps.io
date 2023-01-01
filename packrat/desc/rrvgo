@@ -1,0 +1,34 @@
+Package: rrvgo
+Type: Package
+Title: Reduce + Visualize GO
+Version: 1.6.0
+Authors@R: person("Sergi", "Sayols", email = "sergisayolspuig@gmail.com", role = c("aut", "cre"))
+Description: Reduce and visualize lists of Gene Ontology terms by identifying redudance based on semantic similarity.
+URL: https://www.bioconductor.org/packages/rrvgo,
+        https://ssayols.github.io/rrvgo/index.html
+License: GPL-3
+Encoding: UTF-8
+Imports: GOSemSim, AnnotationDbi, GO.db, pheatmap, ggplot2, ggrepel,
+        treemap, tm, wordcloud, shiny, grDevices, grid, stats, methods
+Suggests: knitr, rmarkdown, BiocStyle, testthat (>= 2.1.0),
+        shinydashboard, DT, plotly, heatmaply, magrittr, utils,
+        clusterProfiler, DOSE, slam, org.Ag.eg.db, org.At.tair.db,
+        org.Bt.eg.db, org.Ce.eg.db, org.Cf.eg.db, org.Dm.eg.db,
+        org.Dr.eg.db, org.EcK12.eg.db, org.EcSakai.eg.db, org.Gg.eg.db,
+        org.Hs.eg.db, org.Mm.eg.db, org.Mmu.eg.db, org.Pf.plasmo.db,
+        org.Pt.eg.db, org.Rn.eg.db, org.Sc.sgd.db, org.Ss.eg.db,
+        org.Xl.eg.db
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
+biocViews: Annotation, Clustering, GO, Network, Pathways, Software
+NeedsCompilation: no
+git_url: https://git.bioconductor.org/packages/rrvgo
+git_branch: RELEASE_3_14
+git_last_commit: 46ae2cf
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-26
+Packaged: 2021-10-27 02:56:57 UTC; biocbuild
+Author: Sergi Sayols [aut, cre]
+Maintainer: Sergi Sayols <sergisayolspuig@gmail.com>
+Depends: R (>= 3.5.0)
+Built: R 4.1.1; ; 2021-10-27 16:58:31 UTC; unix
